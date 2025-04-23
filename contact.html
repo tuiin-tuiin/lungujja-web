@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Lungujja Progressive School</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .staff-profile {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .staff-profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .staff-profile h3 {
+      margin: 10px 0;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .staff-profile p {
+      margin: 5px 0;
+      color: #666;
+    }
+    .staff-profile .btn-contact {
+      background-color: #004080;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 5px;
+    }
+    .staff-profile .btn-contact:hover {
+      background-color: #003366;
+    }
+    .map-container {
+      margin-top: 40px;
+      position: relative;
+      height: 400px;
+      width: 100%;
+    }
+    
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <img src="logo.png" alt="Lungujja Progressive Logo" class="logo" />
+      <nav>
+        <div class="menu-toggle">☰</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="boarding.html">Boarding</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="admission.html">Admissions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="slides">
+      <div class="slide">
+        <img src="contact_slide.jpg" alt="Contact page image">
+        <div class="overlay-text">
+          <h1>Contact Lungujja Progressive</h1>
+          <p>We’re here to answer your questions and provide assistance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-content">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>If you have any questions or need further information, feel free to contact us through the form below, or reach out using the contact details provided.</p>
+
+      <h3>Contact Information</h3>
+      <ul>
+        <li><strong>Address:</strong> Lungujja, Kosovo</li>
+        <li><strong>Phone:</strong> [Phone Number]</li>
+        <li><strong>Email:</strong> <a href="mailto:info@lungujjaprogressive.com">info@lungujjaprogressive.com</a></li>
+      </ul>
+
+      <h3>Meet Our Team</h3>
+<section class="section">
+      <div class="staff-profiles">
+        <!-- Director Profile -->
+        <div class="staff-profile">
+          <img src="director.jpg" alt="Director" />
+          <h3>John Doe</h3>
+          <p><strong>Director</strong></p>
+          <p>John has over 20 years of experience in educational leadership and is dedicated to ensuring academic excellence.</p>
+          <a href="tel:+123456789" class="btn-contact">Call</a>
+          <a href="mailto:director@lungujjaprogressive.com" class="btn-contact">Email</a>
+          <a href="https://wa.me/+123456789" class="btn-contact">WhatsApp</a>
+        </div>
+
+        <!-- Head Teacher Profile -->
+        <div class="staff-profile">
+          <img src="headteacher.jpg" alt="Head Teacher" />
+          <h3>Jane Smith</h3>
+          <p><strong>Head Teacher</strong></p>
+          <p>Jane is passionate about creating an inclusive learning environment where every child can thrive.</p>
+          <a href="tel:+123456780" class="btn-contact">Call</a>
+          <a href="mailto:headteacher@lungujjaprogressive.com" class="btn-contact">Email</a>
+          <a href="https://wa.me/+123456780" class="btn-contact">WhatsApp</a>
+        </div>
+
+        <!-- Staff Member 1 Profile -->
+        <div class="staff-profile">
+          <img src="staff1.jpg" alt="Staff Member 1" />
+          <h3>Emily Davis</h3>
+          <p><strong>Science Teacher</strong></p>
+          <p>Emily brings a passion for science education and a commitment to nurturing curiosity in young minds.</p>
+          <a href="tel:+123456781" class="btn-contact">Call</a>
+          <a href="mailto:emily@lungujjaprogressive.com" class="btn-contact">Email</a>
+          <a href="https://wa.me/+123456781" class="btn-contact">WhatsApp</a>
+        </div>
+
+        <!-- Staff Member 2 Profile -->
+        <div class="staff-profile">
+          <img src="staff2.jpg" alt="Staff Member 2" />
+          <h3>Michael Green</h3>
+          <p><strong>Math Teacher</strong></p>
+          <p>Michael specializes in making math accessible and fun for all students through interactive learning.</p>
+          <a href="tel:+123456782" class="btn-contact">Call</a>
+          <a href="mailto:michael@lungujjaprogressive.com" class="btn-contact">Email</a>
+          <a href="https://wa.me/+123456782" class="btn-contact">WhatsApp</a>
+        </div>
+      </div>
+</section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </section>
+      
+
+      <!-- Google Maps Embed for Lungujja Kosovo -->
+      <h3>Location</h3>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Lungujja+Kosovo" 
+          width="100%" 
+          height="400" 
+          frameborder="0" 
+          style="border:0;" 
+          allowfullscreen="">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; [Year] Lungujja Progressive School. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
